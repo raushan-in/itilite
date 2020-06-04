@@ -59,6 +59,10 @@
             return `${rhours} ${pul} ${rminutes} mins`;
         }
 
+        function getStar(num){
+            return Array(num+1).join("★")
+        }
+
     </script>
     
     </body>

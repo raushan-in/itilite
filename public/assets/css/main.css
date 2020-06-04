@@ -70,3 +70,25 @@
 .flight-arrival{
   text-align: center;
 }
+
+.hotel{
+  float: left;
+  width: 50%;
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+.hotel-price{
+  text-align: center;
+}
+
+.hotel-id{
+  padding-bottom: 04px;
+}
+
+.rating{
+  margin: 0;
+  position: relative;
+  padding-top: 3%;
+}
