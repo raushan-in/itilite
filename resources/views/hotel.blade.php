@@ -22,6 +22,7 @@
 <script>
 
   const getHotel = (source) => {
+    showloader();
     $.ajax({
         url: "{{ route('hotel-by-source') }}",
         dataType: "JSON",

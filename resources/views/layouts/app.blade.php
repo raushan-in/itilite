@@ -63,6 +63,10 @@
             return Array(num+1).join("★")
         }
 
+        function showloader(){
+            $(".main-column").append(`<img src="{{ asset('assets/photo/loader.gif') }}"  alt="Loading ......">`)
+        }
+
     </script>
     
     </body>

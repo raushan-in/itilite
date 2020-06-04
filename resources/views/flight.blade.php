@@ -22,6 +22,7 @@
 <script>
 
   const getFlight = (stop) => {
+    showloader();
     $.ajax({
         url: "{{ route('flight-list') }}",
         dataType: "JSON",
