@@ -16,7 +16,7 @@ class FlightController extends Controller
 
     public function flightList()
     {
-        $data = $this->getFlights();
-        return view('booking')->with(['data' => $data]);
+        $flights = $this->getFlights();
+        return $flights;
     }
 }

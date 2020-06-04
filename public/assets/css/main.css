@@ -1,0 +1,72 @@
+
+.left-column {
+  float: left;
+  width: 25%;
+  padding: 30px;
+  margin: 25px 0;
+  color: gray;
+  font-size: 15px;
+}
+.main-column {
+  float: left;
+  width: 70%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 10px 10px 5px lightgray;
+}
+
+.btn {
+  background-color: white;
+  color: gray;
+  border: 2px solid lightgray;
+  font-size: 12px;
+}
+
+.btn:focus {
+  background-color: rgb(244, 232, 203);
+  color: orange;
+}
+
+.flight{
+  float: left;
+  width: 20%;
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+.tiny {
+  color: gray;
+  font-size: smaller;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.policy {
+  color: orange;
+  font-size: smaller;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.duration{
+  text-align: center;
+}
+
+.flight-departure{
+  text-align: center;
+}
+
+.flight-arrival{
+  text-align: center;
+}
